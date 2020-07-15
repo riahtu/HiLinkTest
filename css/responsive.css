@@ -1,0 +1,1209 @@
+.nav-icon{
+	display:none;
+}
+.tutor_content_box {
+	overflow: hidden;
+}
+.ytp-title-link.yt-uix-sessionlink {
+	display: none !important;
+}
+a{
+	text-decoration:none !important;
+}
+button{
+	outline:none !important;
+}
+.wSelect-selected.wSelect-option-icon {
+	color: #679676 !important;
+}
+p{
+	margin: 0;
+}
+.forgot-password p a,.new_register-button p a {
+	color: #007bff;
+	font-size: 16px;
+}
+.forgot-password p a:hover,.new_register-button p a:hover {
+	text-decoration:underline;
+}
+.forgot-password {
+	margin-bottom: 6px;
+}
+.form-group p {
+	font-size: 16px;
+	color: #000000;
+	opacity:0.9;
+}
+.form {
+	max-width: 450px;
+	margin: 60px auto;
+	border: 1px solid #ddd;
+	box-shadow: 0 0 20px #b3b3b3;
+	padding: 50px;
+	box-sizing: border-box;
+}
+.form-group span {
+	margin-left: 30px;
+	margin-right: 10px;
+	font-size: 20px;
+	font-weight: 500;
+	margin-top: 10px;
+	display: ;
+	position: relative;
+	top: 4px;
+	color:#689777;
+}
+.btn-success.focus, .btn-success:focus {
+	box-shadow: none !important;
+}
+.form-control:focus {
+	box-shadow: none !important;
+	border-color: #ced4da !important;
+}
+.btn-success {
+	color: #fff;
+	background-color: #689777 !important;
+	border-color: #689777 !important;
+}
+.alert.alert-success {
+	margin-top: 40px;
+}
+.profile-usersetting-area {
+	padding: 12px 0;
+	background: #689777;
+	box-shadow: none;
+	position:relative;
+}
+.profile-usersetting-area .index_navi_cont .content_box .nav_last {
+	background: transparent;
+	border: 0;
+}
+.profile-usersetting-area .index_navi_cont .content_box .nav_last a {
+	color: #FFF;
+}
+.alert-heading {
+	text-align: center;
+}
+.information-area {
+	padding-bottom: 30px;
+}
+.user_center_content_box .nav_box {
+	height: 100% !important;
+	position: absolute;
+	width: 230px;
+	top: 0;
+	overflow: hidden;
+}
+.user_center_content_box .content_box {
+	width: 100%;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0px 0px 8px rgba(0,0,0,0.12);
+	padding: 30px 36px;
+	margin-left: 240px;
+}
+.user_center_content_box {
+	position: relative;
+}
+.profile-img-area {
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: flex;
+	align-items:center;
+}
+.profile-img-area a {
+	font-size: 17px;
+	color: #FFF;
+	font-weight: 600;
+	margin-top: ;
+	margin-left: 10px;
+}
+.profile-img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.profile-img-area img {
+	width: 100%;
+	height: 100%;
+	object-fit:cover;
+}
+.profile-right-area {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	float: right;
+}
+.from-title {
+	text-align: center;
+	border-bottom: 2px dashed #000;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+.owl-prev {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 10px;
+	font-size: 60px !important;
+	color: #FFF !important;
+}
+.owl-next {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 10px;
+	font-size: 60px !important;
+	color: #FFF !important;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+	background: transparent !important;
+}
+.regis_content_box .content_box input {
+	border-radius: 5px;
+	margin-bottom: 30px;
+	font-size: 15px;
+}
+.singup-button-area {
+	text-align: center;
+	padding: 20px 0 40px 0;
+}
+.singup-button-area a {
+	color: #FFF;
+	background: #679676;
+	padding: 12px 30px;
+	line-height: 0;
+	font-size: 18px;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-weight: 600;
+	border-radius: 3px;
+}
+.item {
+	position: relative;
+}
+.item::after {
+	position: absolute;
+	width: 100%;
+	content: "";
+	height: 100%;
+	background: #000000;
+	top: 0;
+	opacity: 0.35;
+}
+.campsite_content_box1 .item {
+	position: inherit !important;
+	left: inherit !important;
+	top: inherit !important;
+	/* width: 100%; */
+	height: 268px !important;
+	margin: 2px 0.6%;
+	/* float: left; */
+	overflow: hidden;
+}
+.case_title.title_white {
+	padding-top: 45px !important;
+}
+.video-area {
+	text-align: center;
+	padding: 30px 0;
+}
+.video-class video {
+	width: 85%;
+	height: auto;
+}
+.programs-banner-slider .swiper-slide {
+	height: 540px;
+}
+.programs-banner-slider .swiper-slide img {
+	width:100%;
+	object-fit:cover;
+}
+.about-us-area {
+	padding: 45px 0 20px 0;
+	text-align: center;
+}
+.aboutuse-content h2 {
+	font-size: 35px;
+	font-weight: 700;
+	color: #262d34;
+}
+.aboutuse-content p {
+	font-size: 18px;
+	font-weight: 400;
+	color: #262d34;
+	width: 75%;
+	margin: auto;
+	line-height: 1.4;
+}
+.det_txt {
+	font-family: 'Montserrat', sans-serif;
+}
+.content_box1 {
+	width: 80% !important;
+	margin: auto;
+}
+.campsite_content_box1.campsite_content_box {
+	width: 100% !important;
+	height:auto !important;
+}
+.campsite_content_box1.campsite_content_box .item img {
+	height: 100%;
+}
+.campsite_content_box .item p {
+	font-size: 30px;
+	padding: 0 12px;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+.tutor_last_content .list_box .txt_cont {
+	height: auto;
+}
+.battalion_last_box .content_box .battalion_list {
+	margin-bottom: 30px;
+}
+.regis_content_box .content_box .sele {
+	height: 50px;
+	width:100%;
+}
+.sele_btn_box img {
+	width: 20px;
+}
+.list textarea {
+	width: 100%;
+}
+.index_search_box .search_sele {
+	/* width: 155px; */
+	/* height: 55px; */
+	position: relative;
+	z-index: 20;
+	float: left;
+}
+.campsite_detail_txt .img_box {
+	float: right;
+	width: calc(100% - 70%);
+	margin-bottom: 20px;
+}
+.index_search_box .logo {
+	margin-bottom: 3px;
+}
+.tis_tle {
+	padding: 10px 10px !important;
+}
+.campsite_detail_tis .campsite_detail_item .large img {
+	height: 100%;
+}
+.campsite_detail_tis .tis_tle p {
+	margin-bottom: 12px;
+}
+.clear {
+	overflow: hidden !important;
+}
+.prifile-img-area {
+	display: block;
+	width: 196px;
+	height: 196px;
+	border-radius: 100%;
+	overflow: hidden;
+}
+.prifle-area {
+	padding: 60px 0;
+}
+.prifile-img-area {
+	display: block;
+	width: 220px;
+	height: 220px;
+	border-radius: 100%;
+	overflow: hidden;
+}
+.prifile-img-area img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.profle-content h2 {
+	color: #262d34;
+	font-size: 36px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+.profle-content h3 {
+	color: #262d34;
+	font-size: 21px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+.profle-content p {
+	color: #262d34;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+::placeholder{
+	color:#000000;
+	opacity:0.8;
+}
+input[type="date"] {
+	-webkit-appearance: listbox;
+	text-transform: uppercase;
+}
+.programs-banner-slider img{
+	height:100%;
+}
+.programs-content-area {
+	padding: 40px 0;
+}
+.program-content h2 {
+	font-size: 27px;
+	font-family: 'Montserrat', sans-serif;
+	color: #222222;
+	font-weight: bold;
+	width: 45%;
+}
+.program-content p {
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	color: #222222;
+	line-height: 1.4;
+	margin-bottom: 20px;
+	padding-top: 16px;
+}
+#tabs {
+	box-shadow: 0 2px 30px rgba(103, 102, 117, 0.2);
+	padding: 30px;
+	margin-top: 30px;
+	border-radius: 20px;
+}
+.tabs-menu-area ul li {
+	display: inline;
+	margin-right: 30px;
+}
+.tabs-menu-area ul li a {
+	font-size: 23px;
+	font-family: 'Montserrat', sans-serif;
+	color: #222222;
+	font-weight: bold;
+}
+.content-tabs-text-area h3 {
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	color: #222222;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
+.singup-button-area1 a {
+	text-transform: uppercase !important;
+	border-radius: 12px;
+}
+.tabs-menu-area {
+	border-bottom: 1px solid rgb(221, 221, 221);
+	margin-bottom: 30px;
+}
+.ui-tabs-nav.ui-corner-all.ui-helper-reset.ui-helper-clearfix.ui-widget-header {
+	margin-bottom: 5px;
+}
+.ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab.ui-tabs-active.ui-state-active {
+	border-bottom: 3px solid #679676;
+	padding-bottom: 9px;
+}
+.content-text-area1 {
+	padding-top: 10px;
+}
+.content-tabs-text-area ul li {
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	color: #222222;
+	line-height: 1.4;
+	padding: 3px 0;
+}
+.tabs-image-area img {
+	width: 100%;
+}
+.row.video-area-profile {
+	padding: 60px 0;
+}
+.profile-video-area video {
+	width: 100%;
+}
+.about-title h2 {
+	color: #262d34;
+	font-size: 36px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+.about-content {
+	padding: 30px 20px;
+	box-shadow: 0 2px 30px rgba(103, 102, 117, 0.2);
+	margin:15px 0;
+}
+.row.about-box-area {
+	width: 90%;
+	margin: auto;
+}
+.about-content h3 {
+	color: #262d34;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+.about-content p {
+	color: #262d34;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	padding-top: 3px;
+}
+.contact-button a {
+	color: #FFF;
+	background: #679676;
+	padding: 12px 30px;
+	line-height: 0;
+	font-size: 18px;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-weight: 600;
+	border-radius: 3px;
+}
+.contact-button {
+	margin-top: 30px;
+}
+.chatbox-button {
+	float: right;
+}
+
+.profile-area {
+	margin-top: 40px;
+	overflow: hidden;
+}
+.profile-image-area {
+	width: 25%;
+	float: left;
+	overflow: hidden;
+}
+.desicnatins-area {
+	width: 75%;
+	display: block;
+	float: right;
+	overflow: hidden;
+	position: relative;
+}
+.profile-desicnatins-area {
+	padding-left: 60px;
+}
+.profile-image-area img {
+	width: 100%;
+	height: auto;
+}
+.profile-desicnatins-area h2 {
+	font-size: 28px;
+	line-height: 25px;
+	font-weight: 700;
+	color: #556673;
+}
+.profile-desicnatins-area span {
+	color: #C3C3C3;
+	font-size: 15px;
+	font-weight: 700;
+	padding-left: 20px;
+}
+
+.profile-desicnatins-area i {
+	color: #A7A7A7;
+	font-size: 20px;
+	padding-right: 7px;
+}
+.profile-desicnatins-area p {
+	color: #52AEF9;
+	font-weight: 700;
+	font-size: 18px;
+	padding: 15px 0;
+}
+.contact-information-item h3 {
+	color: #C3C3C3;
+	font-size: 14px;
+	font-weight: 700;
+	position: relative;
+	overflow: hidden;
+}
+.information-item {
+	padding-top: 40px;
+}
+.contact-information-item ul {
+	padding-top: 10px;
+	list-style: none;
+}
+.bacik-information.contact-information-item {
+	padding-top: 30px;
+}
+.contact-information-item ul li {
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: 700;
+	color: #556673;
+	padding-top: 6px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.contact-information-item ul li label {
+	width: 130px;
+}
+.contact-information-item ul li strong {
+	font-size: 15px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #556673;
+	display: block !important;
+}
+.color-span a{
+	color: #52AEF9;
+	text-decoration:none;
+}
+@media all and (max-width:1200px) {
+	.index_navi_cont .content_box .nav_last a {
+		font-size: 18px;
+	}
+	.index_search_box .search_sele {
+		width: 180px;
+	}
+	.tutor_last_content .list_box .ava_box {
+		width: 30% !important;
+	}
+	.tutor_last_content .list_box .txt_cont {
+		width: 70%;
+	}
+	.down_cont_box .dd_list .down {
+		width: auto;
+	}
+	.battalion_last_box .content_box .battalion_list {
+		margin: 0 3%;
+		width: 44%;
+		margin-bottom: 30px;
+	}
+	.campsite_detail_txt .img_box {
+		width: calc(100% - 70%);
+		float:left;
+		margin-left:26px;
+	}
+	.tis_tle {
+		padding: 10px 10px !important;
+	}
+}
+
+@media all and (min-width:992px){
+	
+}
+@media all and (max-width:991px){
+	.index_case_1 .content_box {
+		width: 100%;
+		margin-bottom:30px;
+	}
+	.profile-img-area {
+    	position: inherit;
+    }
+    .profile-page-icon a {
+    	text-align: left !important;
+    	float: left;
+    	font-size: 30px;
+    }
+    .profile-page-icon {
+    	float: left;
+    	width: 50%;
+    }
+    .profile-right-area {
+    	width: 50%;
+    }
+    .profile-usersetting-area .index_navi_cont .content_box .nav_last a {
+    	color: #679676;
+    }
+    .user_center_content_box {
+    	display: block;
+    }
+	.case_item_menu .item {
+		height: 235px !important;
+	}
+	.user_center_content_box .nav_box {
+    	position: inherit;
+    	width: 100%;
+    	margin-bottom: 20px;
+    }
+    .user_center_content_box .content_box {
+    	margin-left: 0;
+    }
+    .user_center_content_box .nav_box {
+    	padding: 10px 10px 0 10px;
+    }
+    .profile-desicnatins-area {
+    	padding-left: 30px;
+    }
+	.index_case_1 .content_box .case_title h2 {
+		font-size: 45px;
+	}
+	.content_box .case_cont .case_news .bit_btn {
+		font-size: 30px;
+	}
+	.logo {
+		width: 100%;
+	}
+	.openbtn {
+		font-size: 35px;
+		color: #b3dbc0;
+		height: ;
+		text-align: center;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		border-radius: 6px;
+		float: right;
+	}
+	.index_navi_cont .content_box .nav_last {
+		float: none;
+	}
+	.canvas-menu {
+		-webkit-transform: translate(-100%,0px);
+		transform: translate(100%,0px);
+	}
+	.menu_nav_box {
+		padding: 30px 0;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		right: 0;
+		-webkit-transition: 0.6s;
+		transition: 0.6s;
+		z-index: 999999999 !important;
+		opacity: 1;
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+		/* display: -webkit-box; */
+		/* display: -ms-flexbox; */
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		/* align-items: center; */
+		background: #FFF;
+	}
+	.index_navi_cont .content_box .nav_last {
+		padding: 0px 0px;
+		margin-top: 12px;
+	}
+	.nav-icon.closebtn {
+		font-size: 35px;
+		color: #b3dbc0;
+		height: ;
+		text-align: center;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		border-radius: 6px;
+		position: absolute;
+		top: 0px;
+		right: 15px;
+	}
+	.index_search_box .search_sele {
+		float: left;
+		margin-top: 25px;
+		margin-bottom: 6px;
+	}
+	.index_search_box .header_sele_box {
+		float: right;
+		margin-top: 25px;
+	}
+	.nav-icon{
+		display:block;
+	}
+	.index_search_box .warpin {
+		display: block;
+		padding: 0 15px;
+	}
+	.campsite_content_box .item p {
+		padding: 0 12px;
+	}
+	.campsite_content_box {
+		grid-template-columns: 2fr 2fr;
+	}
+	.swiper-slide img {
+		height: 400px;
+	}
+	.tutor_last_content .list_box .ava_box .ava {
+		width: 165px;
+		height: 165px;
+	}
+	.tutor_last_content .list_box .txt_cont .nam_box h2 {
+		font-size: 30px;
+	}
+	.tutor_last_content .list_box .txt_cont .nam_box p {
+		font-size: 20px;
+	}
+	.tutor_last_content .list_box .price_box {
+		padding-top: 0;
+	}
+	.tutor_last_content .list_box .txt_cont .tis_box {
+		height: auto;
+	}
+	.tutor_last_content .list_box .txt_cont .tis_box .txt span {
+		margin: 3px 0px;
+	}
+	.battalion_last_box .tle {
+		width: 15%;
+	}
+	.battalion_last_box .content_box {
+		width: 85%;
+	}
+	.battalion_last_box .content_box .battalion_list {
+		margin: 0 2%;
+		width: 46%;
+	}
+	.battalion_last_box .content_box .battalion_list .txt h2 {
+		font-size: 25px;
+	}
+	.battalion_last_box .content_box .battalion_list {
+		margin-bottom: 20px !important;
+	}
+	.campsite_detail_tis .tis_tle h2 {
+		font-size: 30px;
+	}
+	.campsite_detail_txt .txt {
+		width: 100%;
+		padding-left: 26px;
+		padding-right: 26px;
+	}
+	.content_box1 {
+		width: 100% !important;
+	}
+	.campsite_detail_txt .img_box {
+		width: calc(100% - 50%);
+	}
+	.index_navi_cont .content_box .nav_last {
+		height: 40px;
+		line-height: 37px;
+	}
+	.index_navi_cont .content_box .nav_last:hover {
+		background: transparent;
+		border: transparent;
+	}
+	.language-area {
+		margin-top: 38px;
+	}
+	.index_case_1 {
+		margin: 0;
+	}
+	.tutor_last_content .list_box .price_box .btn {
+		margin-left: 30%;
+		margin-top:30px;
+	}
+	.programs-banner-slider .swiper-slide {
+		height: auto;
+	}
+	.program-content h2 {
+		width: 100%;
+	}
+}
+@media all and (max-width:767px){
+	.tutor_last_content .list_box .ava_box {
+		width: 100% !important;
+		display: block;
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		position: relative;
+	}
+	.tutor_last_content .list_box .txt_cont {
+		width: 100%;
+		text-align: center;
+	}
+	.tutor_last_content .list_box .ava_box .ax {
+		right: 0;
+		bottom: 20px;
+		margin: auto !important;
+		left: 130px;
+	}
+	.filedown_content_box .down_cont_box {
+		padding: 30px 15px;
+	}
+	.down_cont_box .dd_list .name {
+		width: 100%;
+		padding: 0 10px;
+		font-size: 16px;;
+	}
+	.down_cont_box .dd_list .ifica h2 {
+		font-size: 20px;
+	}
+	.down_cont_box .dd_list .ifica p {
+		font-size: 13px;
+	}
+	.down_cont_box .dd_list .down {
+		width: auto;
+	}
+	.down_cont_box .dd_list .down .down_btn {
+		width: 40px;
+		height: 40px;
+		background-position: 50% -6px;
+	}
+	.down_cont_box .tis_tle {
+		font-size: 30px;
+	}
+	.battalion_last_box .tle {
+		width: 100%;
+		padding-bottom: 20px;
+	}
+	.battalion_last_box .tle {
+		font-size: 30px;
+	}
+	.battalion_last_box .content_box {
+		width: 100%;
+		padding: 20px 0;
+	}
+	.battalion_last_box .content_box .battalion_list .txt h2 {
+		font-size: 21px;
+	}
+	.regis_content_box .content_box .cont {
+		width: 100%;
+		padding: 0 15px;
+	}
+	textarea {
+		width: 100%;
+	}
+	.campsite_detail_tis .campsite_detail_item .large img {
+		height: auto;
+	}
+	.regis_content_box .tis_tle {
+		font-size: 30px;
+	}
+	.swiper-slide {
+		padding: 0 15px;
+	}
+	.campsite_detail_txt .img_box {
+		width: calc(100% - 50%);
+	}
+	.login_content_box .content_box .cont {
+		width: 100%;
+		padding: 0 15px;
+	}
+	/* .banner-slider.index_banner_box.swiper-container.owl-carousel.owl-theme.owl-loaded.owl-drag {
+		padding-left:15px;
+		padding-right:15px;
+	} */
+	.prifile-img-area {
+		width: 180px;
+		height: 180px;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+	.video-class video {
+		width: 100%;
+	}
+	.profle-content {
+		text-align: center;
+	}
+	.profle-content h2 {
+		font-size: 30px;
+	}
+	.row.about-box-area {
+		width: 108% !important;
+		padding:0;
+		margin-right: -15px;
+		margin-left: -15px;
+	}
+	.tabs-image-area {
+		margin-top: 10px;
+	}
+}
+@media all and (max-width:575px){
+	.index_banner_box img {
+		height: 100%;
+		width: 100%;
+	}
+	.index_case_1 .content_box .case_title h2 {
+		font-size: 31px;
+		padding-bottom: 6px;
+	}
+	.case_item_menu .item {
+		width: 100% !important;
+		height: auto !important;
+	}
+	.profile-image-area {
+    	width: 200px;
+    	float: none;
+    	max-width: 100%;
+    	margin: auto;
+    	margin-bottom: 20px;
+    }
+    .desicnatins-area {
+    	width: 100%;
+    	text-align: Center;
+    }
+    .contact-information-item ul li {
+    	display: inline-block;
+    }
+    .profile-desicnatins-area {
+    	padding-left: 0;
+    }
+    .user_center_content_box .content_box {
+    	padding: 10px 15px 30px 15px;
+    }
+    .user_center_content_box .content_box .tis_tle span {
+    	padding: 0 0 0 0;
+    	font-size: 20px;
+    }
+    .alert.alert-success h4 {
+    	font-size: 20px;
+    }
+	.index_case_1 .content_box .case_cont {
+		padding: 15px;
+	}
+	.content_box .case_cont .case_news .tle {
+		font-size: 211px;
+		margin-top: 70px;
+	}
+	.content_box .case_cont .case_news .txt {
+		font-size: 16px;
+	}
+	.content_box .case_cont .case_news .bit_btn {
+		font-size: 23px;
+		width: 100%;
+	}
+	.index_case_1 {
+		margin:0;
+	}
+	.index_case_1 .case_news .tle_img {
+		height: 175px;
+	}
+	.index_search_box .warpin {
+		display: block;
+		padding: 0 0;
+	}
+	.campsite_content_box {
+		grid-template-columns: inherit;
+		padding: 30px 10px !important;
+	}
+	.campsite_content_box1 .item {
+		width: 100%;
+		padding: 0;
+	}
+	.campsite_content_box .item p {
+		padding: 0 12px;
+		font-size: 30px;
+	}
+	.index_banner_box .mouse_ico {
+		width: 17px;
+		height: 42px;
+	}
+	.tutor_tip_navi .list {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.tutor_tip_navi .list dd {
+		height: 45px;
+	}
+	.tutor_tip_navi .list dd .sele {
+		font-size: 16px;
+	}
+	.tutor_tip_navi .list dt {
+		font-size: 17px;
+	}
+	.tutor_last_content .list_box .txt_cont .nam_box h2 {
+		font-size: 25px;
+	}
+	.tutor_last_content .list_box .txt_cont .nam_box p {
+		font-size: 17px;
+	}
+	.tutor_last_content .list_box .txt_cont .tis_box .txt span {
+		font-size: 13px;
+	}
+	.tutor_last_content .list_box .txt_cont .det_txt {
+		font-size: 15px;
+		line-height: 21px;
+	}
+	.tutor_last_content .list_box .price_box .btn {
+		width: 140px;
+		height: 50px;
+		line-height: 36px;
+		font-size: 16px;
+	}
+	.tutor_last_content .list_box {
+		padding: 30px 20px 35px 20px;
+	}
+	.tutor_last_content .list_box .txt_cont .tis_box .txt .txt_list {
+		width: 100px;
+		left: 74%;
+	}
+	.tutor_last_content .list_box .txt_cont .tis_box .txt .txt_list p {
+		line-height: 15px;
+		font-size: 13px;
+	}
+	.tutor_last_content .list_box .ava_box .ava {
+		width: 140px;
+		height: 140px;
+	}
+	.battalion_last_box .content_box .battalion_list {
+		width: 100%;
+	}
+	.content_pulic_tis_nav li a {
+		font-size: 20px;
+	}
+	.battalion_last_box .content_box {
+		padding: 0 0;
+	}
+	.battalion_last_box .tle {
+		font-size: 25px;
+	}
+	.campsite_detail_tis .tis_tle h2 {
+		font-size: 23px;
+		margin-bottom: 12px;
+	}
+	.campsite_detail_tis .sign_box img {
+		width: 25px;
+		margin-left: 3px;
+	}
+	.campsite_detail_tis .sign_box {
+		width: 104px;
+		height: 41px;
+		line-height: 40px;
+		font-size: 14px;
+	}
+	.campsite_detail_txt .txt h2 {
+		font-size: 27px;
+	}
+	.campsite_detail_txt .txt p {
+		font-size: 17px;
+		line-height: 23px;
+	}
+	.campsite_detail_txt .txt {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.campsite_detail_txt .txt ul {
+		font-size: 16px;
+	}
+	.campsite_detail_txt .txt h3 {
+		font-size: 21px;
+		margin-bottom: 10px;
+	}
+	.aboutuse-content p {
+		font-size: 16px;
+		width: 100%;
+		padding: 0;
+	}
+	.about-us-area {
+		padding: 30px 0 10px 0;
+	}
+	.campsite_detail_bitbtn a {
+		font-size: 21px;
+	}
+	.campsite_detail_bitbtn img {
+		width: 30px;
+	}
+	.regis_content_box .content_box p {
+		font-size: 18px;
+	}
+	.regis_content_box .content_box input {
+		height: 45px;
+	}
+	.regis_content_box .content_box .sele {
+		width: 100%;
+		height: 45px;
+	}
+	.regis_content_box .tis_tle {
+		font-size: 25px;
+	}
+	textarea {
+		width: 100%;
+		height: 150px;
+	}
+	.regis_content_box {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.regis_content_box .content_box {
+		min-height: auto;
+		padding-bottom: 3px;
+	}
+	.campsite_detail_txt .img_box {
+		width: 100%;
+		margin: 0;
+		padding: 0 15px 20px 15px;
+	}
+	.aboutuse-content h2 {
+		font-size: 31px;
+	}
+	.index_case_1 .content_box .case_title {
+		padding: 25px 0 0 0;
+	}
+	.case_title.title_white {
+		padding-top: 20px !important;
+	}
+	.contact-button {
+		text-align: center;
+	}
+	.chatbox-button {
+		float: none;
+	}
+	.profle-content h2 {
+		font-size: 27px;
+	}
+	.profle-content h3 {
+		font-size: 18px;
+	}
+	.profle-content p {
+		font-size: 15px;
+	}
+	.row.video-area-profile {
+		padding: 40px 0;
+	}
+	.about-title h2 {
+		font-size: 30px;
+	}
+	.login_content_box .tis_tle {
+		font-size: 30px;
+	}
+	.login_content_box .content_box P {
+		font-size: 18px;
+	}
+	.login_content_box .content_box input {
+		height: 45PX;
+	}
+	.program-content h2 {
+		font-size: 23px;
+	}
+	.program-content p {
+		font-size: 16px;
+	}
+	#tabs {
+		padding: 30px 15px;
+	}
+	.tabs-menu-area ul li a {
+		font-size: 16px;
+	}
+	.ui-tabs-tab.ui-corner-top.ui-state-default.ui-tab.ui-tabs-active.ui-state-active {
+		padding-bottom: 6px;
+	}
+	.tabs-menu-area ul li {
+		margin: 0 3px;
+	}
+}
+@media all and (max-width:450px){
+	
+}
