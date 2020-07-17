@@ -5,51 +5,24 @@ require_once('config.php');
   if(!isset($_SESSION['logged_in']) ){
     header('location:login.php');
   }
-   
-  if(isset($_POST['update'])){
-	$firstname        = $_POST['first_name'];
-	$lastname         = $_POST['last_name'];
-    $email            = $_POST['email'];
-	$account_id       = $_POST['account_id'];
-	$birthday         = $_POST['birthday'];
-	$school           = $_POST['school'];
-	$grade            = $_POST['grade'];
-	
-   $statement = $pdo->prepare("SELECT * FROM admin WHERE email=?");
-    $statement->execute(array($email));
-    $emailcount = $statement->rowCount();
-    $result = $statement->fetchAll(PDO::FETCH_ASSOC);
-    if(empty($email)){
-      $error = "Email can't be empty!";
-
-    }
-    else if($emailcount == 0){
-      $error = "Account Email is Wrong! Please try again";
-    }else{
-
-      $statement=$pdo->prepare("UPDATE admin SET firstname=?,lastname=?,account_id=?,school=?,grade=?,birthday=? WHERE email=?");
-      $statement->execute(array($firstname,$lastname,$account_id,$school,$grade,$birthday,$email));
-      $success = "Your informations change Successfully!";
-
-
-    }
-  }
  ?>
-  <?php 
+           <?php
 
               $stm = $pdo->prepare("SELECT * FROM admin WHERE email=?");
               $stm->execute(array($_SESSION['logged_in']['email']));
               foreach($stm->fetchAll(PDO::FETCH_ASSOC) as $row){
                 $photo  = $row['photo'];
-                $f_name  = $row['firstname'];
-                $l_name  = $row['lastname'];
+                $name  = $row['firstname'] ." " . $row['lastname'];
                 $account_id  = $row['account_id'];
                 $school  = $row['school'];
                 $grade = $row['grade'];
                 $email  = $row['email'];
                 $birthday  = $row['birthday'];
+                $type = $row['type'];
+                $count = $row['count'];
               }
              ?>
+
 
 <!DOCTYPE html>
 <html lang="zh">
@@ -138,7 +111,10 @@ require_once('config.php');
 			</div>
 		  </div>
 		  <div class="profile-img-area">
-		      <div class="profile-img"><img src="profile-picture/<?php echo $photo;?>"></div><a href="logout.php">Logout</a>
+    		  <div class="profile-page-icon">
+    		     <a href="javascript:void(0)" class="nav-icon openbtn" onclick="openNav()">☰</a>
+    		  </div>
+		      <div class="profile-right-area"><div class="profile-img"><a href="profile.php"><img src="profile-picture/<?php echo $photo;?>"></div><a href="logout.php">Logout</a>
 		  </div>
 		</div>
 	  <!-- -->
@@ -146,74 +122,59 @@ require_once('config.php');
  </div>
 </div>
 </div>
+
+ <div class="welcome-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="alert alert-success" role="alert">
+              <h4 class="alert-heading">Welcome  <?php echo $name;?></h4>
+          </div>
+        </div>
+      </div>
+    </div>
     
 <!---->
 <div class="user_center_content_bg">
     <div class="user_center_content_box">
         <div class="nav_box">
-            <a href="profile.php" class="hover">My Profile</a>
+            <a href="profile.php" class="hover">My  Profile</a>
             <a href="profile-setting.php" class="hover">Account settings</a>
-			<a href="hiClass.php" class="hover">HiClass Stats</a>
+            <a href="hiClass.php" class="hover">HiClass Stats</a>
         </div>
         <div class="content_box">
-            <div class="tis_tle"><span>Update Your Information</span></div>
-					
-			<div class="update-informations-area">
-			  <div class="container">
-				<div class="row">
-				  <div class="col-md-12">
-					 <div class="form-area">
-					  <form action="" method="POST">
-						<?php if(isset($error)): ?>
-						<div class="alert alert-danger">
-						  <?php echo $error; ?>
-						</div>
-						<?php endif; ?>
-
-						<?php if(isset($success)): ?>
-						<div class="alert alert-success">
-						  <?php echo $success; ?>
-						</div>
-						<?php endif; ?>
-						<div class="form-group" style="display:none;">
-						  <label for="email">Email:</label>
-						  <input type="email" name="email" class="form-control" id="email" value="<?php echo $email;?>">
-						</div>
-
-						<div class="form-group">
-						  <label for="first_name">First Name:</label>
-						  <input type="text" name="first_name" value="<?php echo $f_name;?>" class="form-control" id="first_name">
-						</div>
-						<div class="form-group">
-						  <label for="last_name">Last Name:</label>
-						  <input type="text" name="last_name" value="<?php echo $l_name?>" class="form-control" id="last_name">
-						</div>
-						<div class="form-group">
-						  <label for="account_id">Account ID:</label>
-						  <input type="text" name="account_id" value="<?php echo $account_id?>" class="form-control" id="account_id">
-						</div>
-						<div class="form-group">
-						  <label for="school">School:</label>
-						  <input type="text" name="school" value="<?php echo $school;?>" class="form-control" id="school">
-						</div>
-						<div class="form-group">
-						  <label for="grade">Grade:</label>
-						  <input type="text" name="grade" value="<?php echo $grade;?>" class="form-control" id="grade">
-						</div>
-						<div class="form-group">
-						  <label for="birthday">Birthday:</label>
-						  <input type="text" name="birthday" value="<?php echo $birthday;?>" class="form-control" id="birthday">
-						</div>
-
-						<div class="form-group">
-						  <input type="submit" name="update" class="btn btn-success" value="Update Information">
-						</div>
-
-
-					  </form>
-				  </div>
+            <div class="tis_tle"><span>Class Info.</span></div>
+            <div class="main-profile-area">
+			<div class="profile-area">
+				<div class="profile-image-area">
+					<img src="profile-picture/<?php echo $photo;?>" alt="profile">
 				</div>
-			  </div>
+				<div class="desicnatins-area">
+					<div class="profile-desicnatins-area">
+						<h2><?php echo $name;?></h2>
+						<p>Account ID : <?php echo $account_id;?></p>
+						
+						<div class="contact-information-area">
+							<div class="information-item">
+								<div class="contact-information-item">
+									<h3>ABAABA INFORMATION</h3>
+									<ul>
+										<li><label>E-mail:</label><span class="color-span"><a href="mailto:<?php echo $email;?>"><?php echo $email;?></a></span></li>
+									</ul>
+								</div>
+								
+								<div class="bacik-information contact-information-item">
+									<h3>Subscription Plan</h3>
+									<ul>
+										<li><label>Subscription Plan:</label><span><?php echo $type;?></span></li>
+										<li><label>Classes Left:</label><span><?php echo $count;?></span></li>
+										<li><label>Message:</label><span><?php echo $birthday;?></span></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
         </div>
