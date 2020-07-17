@@ -26,12 +26,17 @@ require_once('config.php');
 
              <?php
 
-             if ($type == 0) {
+             if ($type == 1) {
                  $plan = "No Subscription";
                  $message = "Your hadn't subscribe to our product, please click here to view our plans.";
                  $html = <<<HTML
                  <a href="pricing.html">Pricing</a>
                  HTML;
+             } elseif ($type == 0 && count == 0) {
+                $html = <<<HTML
+                <a href="pricing.html">here</a>
+                HTML;
+                $message = "You ran out of class this week! Please come back later or click "+ $html +" to buy single sessions.";
              }
 
              ?>
