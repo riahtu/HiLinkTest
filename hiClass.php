@@ -21,6 +21,19 @@ require_once('config.php');
                 $type = $row['type'];
                 $count = $row['count'];
               }
+              
+             ?>
+
+             <?php
+
+             if ($type == 0) {
+                 $plan = "No Subscription";
+                 $message = "Your hadn't subscribe to our product, please click here to view our plans.";
+                 $html = <<<HTML
+                 <a href="pricing.html">Pricing</a>
+                 HTML;
+             }
+
              ?>
 
 
@@ -140,7 +153,7 @@ require_once('config.php');
         <div class="nav_box">
             <a href="profile.php" class="hover">My  Profile</a>
             <a href="profile-setting.php" class="hover">Account settings</a>
-            <a href="hiClass.php" class="hover">HiClass Stats</a>
+            <a href="hiClass.php" class="hover">HiClass Status</a>
         </div>
         <div class="content_box">
             <div class="tis_tle"><span>Class Info.</span></div>
@@ -163,11 +176,11 @@ require_once('config.php');
 									</ul>
 								</div> -->
 								<div class="bacik-information contact-information-item">
-									<h3>Subscription Plan</h3>
+									<h3>Subscription Status</h3>
 									<ul>
-										<li><label>Subscription Plan:</label><span><?php echo $type;?></span></li>
-										<li><label>Classes Left:</label><span><?php echo $count;?></span></li>
-										<li><label>Message:</label><span><?php echo $birthday;?></span></li>
+										<li><label>Subscription Plan:</label><span><?php echo $plan;?></span></li>
+										<li><label>Classes Remaining:</label><span><?php echo $count;?> classes remaining.</span></li>
+										<li><label>Info:</label><span><?php echo $message;?><?php echo $html;?></span></li>
 									</ul>
 								</div>
 							</div>

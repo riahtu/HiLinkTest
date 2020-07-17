@@ -138,7 +138,7 @@ require_once('config.php');
         <div class="nav_box">
             <a href="profile.php" class="hover">My  Profile</a>
             <a href="profile-setting.php" class="hover">Account settings</a>
-			<a href="hiClass.php" class="hover">HiClass Stats</a>
+			<a href="hiClass.php" class="hover">HiClass Status</a>
         </div>
         <div class="content_box">
             <div class="tis_tle"><span>Personal  Information</span></div>
