@@ -156,13 +156,12 @@ require_once('config.php');
 						
 						<div class="contact-information-area">
 							<div class="information-item">
-								<div class="contact-information-item">
+								<!-- <div class="contact-information-item">
 									<h3>ABAABA INFORMATION</h3>
 									<ul>
 										<li><label>E-mail:</label><span class="color-span"><a href="mailto:<?php echo $email;?>"><?php echo $email;?></a></span></li>
 									</ul>
-								</div>
-								
+								</div> -->
 								<div class="bacik-information contact-information-item">
 									<h3>Subscription Plan</h3>
 									<ul>
