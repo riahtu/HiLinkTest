@@ -37,10 +37,10 @@ require_once('config.php');
 
 
              if ($type == 0) {
-                 $message = "Your hadn't subscribe to our product, please click here to view our plans.";
-                 $html = <<<HTML
-                 <a href="pricing.html">Pricing</a>
-                 HTML;
+                $html = <<<HTML
+                <a href="pricing.html">Pricing</a>
+                HTML;
+                $message = "Your hadn't subscribe to our product, please click $html to view our plans.";
              } elseif ($type != 0 && $count == 0) {
                 $html = <<<HTML
                 <a href="pricing.html">here</a>
