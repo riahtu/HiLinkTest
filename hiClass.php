@@ -41,11 +41,15 @@ require_once('config.php');
                  $html = <<<HTML
                  <a href="pricing.html">Pricing</a>
                  HTML;
-             } elseif ($type == 0 && count == 0) {
+             } elseif ($type != 0 && $count == 0) {
                 $html = <<<HTML
                 <a href="pricing.html">here</a>
                 HTML;
                 $message = "You ran out of class this week! Please come back later or click $html to buy single sessions.";
+             } elseif ($type == 0 && $count == 0) {
+                $message = <<<HTML
+                <iframe src='https://outlook.office365.com/owa/calendar/HiClassSchedulePage@hilink.llc/bookings/' width='100%' height='100%' scrolling='yes' style='border:0'></iframe>
+                HTML;
              }
 
              ?>
