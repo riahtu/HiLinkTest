@@ -25,9 +25,18 @@ require_once('config.php');
              ?>
 
              <?php
+             if ($type == 0) {
+                $plan = "No Subscription";
+             } elseif ($type == 1) {
+                 $plan = "Basic";
+             } elseif ($type == 2) {
+                 $plan = "Standard";
+             } elseif ($type == 3) {
+                 $plan = "Premium";
+             }
 
-             if ($type == 1) {
-                 $plan = "No Subscription";
+
+             if ($type != 0) {
                  $message = "Your hadn't subscribe to our product, please click here to view our plans.";
                  $html = <<<HTML
                  <a href="pricing.html">Pricing</a>
@@ -36,7 +45,7 @@ require_once('config.php');
                 $html = <<<HTML
                 <a href="pricing.html">here</a>
                 HTML;
-                $message = "You ran out of class this week! Please come back later or click "+ $html +" to buy single sessions.";
+                $message = "You ran out of class this week! Please come back later or click $html to buy single sessions.";
              }
 
              ?>
@@ -185,7 +194,7 @@ require_once('config.php');
 									<ul>
 										<li><label>Subscription Plan:</label><span><?php echo $plan;?></span></li>
 										<li><label>Classes Remaining:</label><span><?php echo $count;?> classes remaining.</span></li>
-										<li><label>Info:</label><span><?php echo $message;?><?php echo $html;?></span></li>
+										<li><label>Info:</label><span><?php echo $message;?></span></li>
 									</ul>
 								</div>
 							</div>
